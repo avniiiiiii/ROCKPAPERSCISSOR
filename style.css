@@ -58,3 +58,30 @@ img {
   border-radius: 2rem;
   font-size: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+  .choices {
+    gap: 1rem; /* Further reduce the gap between choices */
+  }
+
+  img {
+    height: 100px; /* Further decrease image size for smaller screens */
+    width: 100px;
+  }
+
+  .scoreboard {
+    gap: 1rem; /* Further reduce gap between items */
+    font-size: 1.2rem; /* Further decrease font size for smaller screens */
+  }
+
+  #yourscore,
+  #compscore {
+    font-size: 2.5rem; /* Further decrease font size for smaller screens */
+  }
+
+  #msg {
+    padding: 1rem; /* Further decrease padding for smaller screens */
+    border-radius: 1rem; /* Further decrease border radius for smaller screens */
+    font-size: 1.2rem; /* Further decrease font size for smaller screens */
+  }
+}
